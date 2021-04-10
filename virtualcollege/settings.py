@@ -38,7 +38,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'channels',
     'home',
+    'livechat',
 ]
 
 MIDDLEWARE = [
@@ -71,8 +73,13 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = 'virtualcollege.wsgi.application'
+ASGI_APPLICATION = 'virtualcollege.routing.application'
 
-
+CHANNEL_LAYERS = {
+    'default': {
+        'BACKEND': 'channels.layers.InMemoryChannelLayer',
+    },
+}
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
