@@ -34,6 +34,10 @@ We also planned to add other useful features like OCR for assignment to change h
 
 - **[Prakhar Jain](https://github.com/prakharjn12)**
 
+## Project Links
+[Project PPT](Edu-Mantra.pptx)
+
+[Project Video](https://youtu.be/2VQyyWLsG9Q)
 
 ## Made at:
 <a href="https://hack36.com"><img src="images/Made-at-Hack-36.png" width="130" height ="20" title="hover text"></a>
