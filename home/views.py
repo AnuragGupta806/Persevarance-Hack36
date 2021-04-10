@@ -1,5 +1,8 @@
 from django.shortcuts import render,redirect
 from django.contrib.auth import authenticate,login,logout
+from django.contrib.auth.forms import UserCreationForm
+from .forms import NewUserForm
+
 # Create your views here.
 
 def index(request):
@@ -19,3 +22,18 @@ def login_user(request):
             return redirect("home:index")
 
     return render(request,'login.html')
+
+def register_user(request):
+    if request.method == "POST":
+        form = NewUserForm(request.POST)
+        if form.is_valid():
+            user = form.save()
+            login(request,user)
+            return redirect("home:index")
+        return redirect("home:login")
+    return render(request,"login.html")
+
+def logout_user(request):
+    if request.user.is_authenticated:
+        logout(request)
+    return redirect("home:index")

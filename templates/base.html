@@ -39,7 +39,7 @@
   ======================================================== -->
 </head>
 
-<body>
+<body style="padding-top: 70px;">
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top ">
@@ -54,11 +54,11 @@
           <li class="active"><a href="index.html">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="{% url 'chat' %}">Live Chat</a></li>
           <li><a href="#team">Team</a></li>
-          <li class="drop-down"><a href="">Drop Down</a>
+          <li class="drop-down"><a href="">Features</a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
+              <li><a href="#">Assignments</a></li>
               <li class="drop-down"><a href="#">Deep Drop Down</a>
                 <ul>
                   <li><a href="#">Deep Drop Down 1</a></li>
@@ -78,7 +78,7 @@
         </ul>
       </nav><!-- .nav-menu -->
       {% if request.user.is_authenticated %}
-      <a href="{% url 'home:login' %}" class="get-started-btn scrollto">Profile</a>
+      <a href="{% url 'home:logout' %}" class="get-started-btn scrollto">Logout</a>
       {% else %}
       <a href="{% url 'home:login' %}" class="get-started-btn scrollto">Login</a>
       {% endif %}
