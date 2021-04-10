@@ -8,6 +8,10 @@ from .forms import NewUserForm
 def index(request):
     return render(request,'index.html')
 
+
+def assign(request):
+    return render(request,'assignment.html')
+
 # def login(request):
 #     return render(request,"login.html")
 

@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+{% load static %}
+
+
+{% block css %}
+<link href="{% static 'css/assign.css'%}" rel="stylesheet">
+{% endblock %}
+
+{% block body %}
+
+<div class="container my-5">
+    <div class="row mb-5">
+        <h1 class="mx-auto">Assignment section</h1>
+    </div>
+    {% if user.is_staff %}
+    <div class="row justify-content-center">
+        <a href="" class="btn btn-primary">Create Assignment</a>
+    </div>
+    {% endif %}
+    <div class="row mt-5">
+        <h3>Current Assignments</h3>
+    </div>
+    <div class="col-md-6">
+        <b>Digital Electronics</b>
+    </div>
+</div>
+{% endblock %}

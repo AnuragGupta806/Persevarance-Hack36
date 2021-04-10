@@ -560,7 +560,7 @@
     background-color: rgba(0, 0, 0, 0.3);
   }
   #frame .content .messages ul li {
-    display: inline-block;
+    display: block;
     clear: both;
     float: left;
     margin: 15px 15px 5px 15px;
