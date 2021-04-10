@@ -21,7 +21,8 @@ We also planned to add other useful features like OCR for assignment to change h
 | Python                | 
 | Django                |    
 | MySQL                 | 
-| Web Sockets           | 
+| Web Sockets           |
+| Bootstrap 4           | 
 
 
 
