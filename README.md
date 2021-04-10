@@ -1,4 +1,4 @@
-## Persevarance  :sunglasses:                                   <img src="images/Made-at-Hack-36.png" width="130" height ="20" title="hover text">
+## Persevarance  :sunglasses:                                   <a href="https://hack36.com"><img src="images/Made-at-Hack-36.png" width="130" height ="20" title="hover text"></a>
 
 
 # Edu-MANTRA
@@ -8,8 +8,9 @@ Hackathon Hack-36 4.0 project titled Edu-Mantra multi functional educational web
 
 In this project, we were able to work upon the login and Authentication system and also Live Chatting feature that uses Web Sockets and Asynchronous Request to send messages between students and teachers.
 
-We also tried to implement assignment creation and submission but were stuck on sime bugs.  
+We also tried to implement assignment creation and submission but were stuck on some bugs.  
 
+We also planned to add other useful features like OCR for assignment to change handwritten into word format.
 
   
 # Technology Stack  
@@ -17,13 +18,14 @@ We also tried to implement assignment creation and submission but were stuck on 
 | --------------------  |
 | Python                | 
 | Django                |    
-| My-Sql                | 
-| Web sockets           | 
+| MySQL                 | 
+| Web Sockets           | 
 
----
+
 
 # Contributors:
 
+### Team: Persevarance
 
 1. **[Anurag Gupta](https://github.com/AnuragGupta806)**
 
