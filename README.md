@@ -1,8 +1,10 @@
-## Persevarance  :sunglasses:                                   <a href="https://hack36.com"><img src="images/Made-at-Hack-36.png" width="130" height ="20" title="hover text"></a>
+# Edu-MANTRA (Theme: Education)
 
+<a href="https://hack36.com"><img src="images/Made-at-Hack-36.png" width="130" height ="20" title="hover text"></a>
 
-# Edu-MANTRA
 **A great way to learn**
+
+![Front Page](images/front.png)
 
 Hackathon Hack-36 4.0 project titled Edu-Mantra multi functional educational webapp built by our team 'Persevarance' organised by MNNIT-A . We believe that this turned out to be a great opportunity and fun to learn in team.  So here is our attempt .
 
@@ -27,13 +29,9 @@ We also planned to add other useful features like OCR for assignment to change h
 
 ### Team: Persevarance
 
-1. **[Anurag Gupta](https://github.com/AnuragGupta806)**
+- **[Anurag Gupta](https://github.com/AnuragGupta806)**
 
-2. **[Prakhar Jain](https://github.com/prakharjn12)**
-
-
-
-
+- **[Prakhar Jain](https://github.com/prakharjn12)**
 
 
 ## Made at:
